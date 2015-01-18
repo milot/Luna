@@ -7,7 +7,7 @@ SET(luna_HEADERS Luna.h)
 ADD_EXECUTABLE(luna ${luna_SOURCES}
     ${luna_HEADERS_MOC})
 
-target_link_libraries(luna lua)
+target_link_libraries(luna lua5.1)
 
 # Add C++11 support :)
 add_definitions (

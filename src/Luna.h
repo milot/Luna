@@ -2,7 +2,7 @@
 #define __LUNA_H__
 
 extern "C" {
-    #include <lua/lua.hpp>
+    #include <lua5.1/lua.hpp>
 }
 
 #include <string>

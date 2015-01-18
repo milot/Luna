@@ -2,8 +2,8 @@
 #include <iostream>
 
 Luna::Script::Script() {
-    luaState = luaL_newstate();
-    //luaL_openlibs(luaState);
+    luaState = lua_open();
+    luaL_openlibs(luaState);
 }
 
 Luna::Script::Script(std::string luaFile) {
@@ -14,8 +14,7 @@ Luna::Script::Script(std::string luaFile) {
 bool Luna::Script::loadLuaScript(std::string filename) {
     bool result = false;
     try {
-        std::cout << "A";
-        luaL_loadfile(luaState, filename.c_str());
+       	luaL_loadfile(luaState, "player.lua");
     } catch (...) {
         result = false;
     }
