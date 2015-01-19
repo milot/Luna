@@ -1,7 +1,7 @@
 Luna - A C++ wrapper for Lua
 ========================
 
-->![lua](https://bhou.files.wordpress.com/2010/12/200pxlualogonolabel-svg_1.png)<-
+![lua](https://bhou.files.wordpress.com/2010/12/200pxlualogonolabel-svg_1.png)
 
 Introduction
 ------------
